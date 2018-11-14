@@ -2,4 +2,10 @@
 import 'bootstrap';
 import './index.scss';
 
-console.log('hey lil hedgie');
+import createNavbar from './components/Navbar/navbar';
+
+const initializeApp = () => {
+  createNavbar();
+};
+
+initializeApp();
