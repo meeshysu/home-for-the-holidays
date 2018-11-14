@@ -1,5 +1,23 @@
 import './navbar.scss';
 import $ from 'jquery';
+import firebase from 'firebase/app';
+import 'firebase/auth';
+
+
+const navBarEvents = () => {
+  $('.nav-link').on('click', (e) => {
+    if (e.target.id === 'navbar-button-logout') {
+      firebase.auth().signOut().then(() => {
+        console.log('you logged out');
+      }).catch((error) => {
+        console.error('you are still logged in', error);
+      });
+    } else {
+      console.log(e.target.id);
+    }
+  });
+};
+
 
 const createNavBar = () => {
   const domString = `
@@ -12,22 +30,23 @@ const createNavBar = () => {
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a id-"navbar-button-authentication" class="nav-link" href="#">Authentication</a>
+        <a id="navbar-button-authentication" class="nav-link">Authentication</a>
       </li>
       <li class="nav-item">
-        <a id-"navbar-button-holidays" class="nav-link" href="#">Holidays</a>
+        <a id="navbar-button-holidays" class="nav-link">Holidays</a>
       </li>
       <li class="nav-item">
-        <a id-"navbar-button-friends" class="nav-link" href="#">Friends</a>
+        <a id="navbar-button-friends" class="nav-link">Friends</a>
       </li>
       <li class="nav-item">
-        <a id-"navbar-button-logout" class="nav-link" href="#">Logout</a>
+        <a id="navbar-button-logout" class="nav-link">Logout</a>
       </li>
     </ul>
   </div>
 </nav>
   `;
   $('#navbar').html(domString);
+  navBarEvents();
 };
 
 export default createNavBar;
