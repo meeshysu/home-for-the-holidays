@@ -15,4 +15,3 @@ const initlializeApp = () => {
 };
 
 initlializeApp();
-
