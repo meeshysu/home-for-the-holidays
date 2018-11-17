@@ -1,0 +1,47 @@
+{
+	"friend1": {
+		"name": "Jasmine",
+		"address": "3410 Moon Drive, The Moon",
+		"phoneNumber": "1111111111",
+		"email": "jasminethemoon@moonmoon.com",
+		"relationship": "complicated",
+		"isAvoiding": true,
+		"uid": "12345"
+	},
+	"friend2": {
+		"name": "Ripal",
+		"address": "2058 Pasta Road, Bread Country",
+		"phoneNumber": "2222222222",
+		"email": "ripalpastalady@pastapasta.com",
+		"relationship": "friends",
+		"isAvoiding": false,
+		"uid": "12345"
+	},
+	"friend3": {
+		"name": "Feven",
+		"address": "888 Llama Circle, The United Cities of Llamas",
+		"phoneNumber": "3333333333",
+		"email": "fevenlovesllamas@llamallama.com",
+		"relationship": "confusing",
+		"isAvoiding": true,
+		"uid": "12345"
+	},
+	"friend4": {
+		"name": "Sally",
+		"address": "5729 Beef Jerky Lane, Jerky Island",
+		"phoneNumber": "4444444444",
+		"email": "jerkysally@jerkyjerky.com",
+		"relationship": "enemies",
+		"isAvoiding": true,
+		"uid": "12345"
+	},
+	"friend5": {
+		"name": "Scarlett",
+		"address": "4983 Ghost Trace, Purgatory",
+		"phoneNumber": "5555555555",
+		"email": "iamaghost@death.com",
+		"relationship": "She dead",
+		"isAvoiding": false,
+		"uid": "67890"
+	}
+}
