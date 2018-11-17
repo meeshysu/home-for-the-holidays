@@ -6,7 +6,7 @@
 		"email": "jasminethemoon@moonmoon.com",
 		"relationship": "complicated",
 		"isAvoiding": true,
-		"uid": "12345"
+		"uid": "bwhHkFJMRNXYPsKRiVeBxETCfo82"
 	},
 	"friend2": {
 		"name": "Ripal",
@@ -15,7 +15,7 @@
 		"email": "ripalpastalady@pastapasta.com",
 		"relationship": "friends",
 		"isAvoiding": false,
-		"uid": "12345"
+		"uid": "bwhHkFJMRNXYPsKRiVeBxETCfo82"
 	},
 	"friend3": {
 		"name": "Feven",
@@ -24,7 +24,7 @@
 		"email": "fevenlovesllamas@llamallama.com",
 		"relationship": "confusing",
 		"isAvoiding": true,
-		"uid": "12345"
+		"uid": "bwhHkFJMRNXYPsKRiVeBxETCfo82"
 	},
 	"friend4": {
 		"name": "Sally",
@@ -33,7 +33,7 @@
 		"email": "jerkysally@jerkyjerky.com",
 		"relationship": "enemies",
 		"isAvoiding": true,
-		"uid": "12345"
+		"uid": "bwhHkFJMRNXYPsKRiVeBxETCfo82"
 	},
 	"friend5": {
 		"name": "Scarlett",
