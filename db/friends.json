@@ -1,26 +1,47 @@
 {
-    "holiday1": {
-      "name": "Thanksgiving",
-      "date": "11/22/2018",
-      "imageUrl": "https://i.chzbgr.com/full/4038661/hFDF0C17B/",
-      "location": "A park somewhere",
-      "startTime": "12pm",
-      "uid": "12345"
-    },
-    "holiday2": {
-      "name": "Christmas",
-      "date": "12/25/2018",
-      "imageUrl": "https://kittybloger.files.wordpress.com/2013/12/funny-christmas-cats-photos-13.jpg?w=584",
-      "location": "Kamurocho, Japan",
-      "startTime": "6pm",
-      "uid": "12345"
-    },
-    "holiday3": {
-      "name": "Szilveszter",
-      "date": "12/31/2018",
-      "imageUrl": "https://i.chzbgr.com/full/1555309824/h5CDD0091/",
-      "location": "Budapest, Hungary",
-      "startTime": "10pm",
-      "uid": "67890"
-    }
-  }
+	"friend1": {
+		"name": "Jasmine",
+		"address": "3410 Moon Drive, The Moon",
+		"phoneNumber": "1111111111",
+		"email": "jasminethemoon@moonmoon.com",
+		"relationship": "complicated",
+		"isAvoiding": true,
+		"uid": "12345"
+	},
+	"friend2": {
+		"name": "Ripal",
+		"address": "2058 Pasta Road, Bread Country",
+		"phoneNumber": "2222222222",
+		"email": "ripalpastalady@pastapasta.com",
+		"relationship": "friends",
+		"isAvoiding": false,
+		"uid": "12345"
+	},
+	"friend3": {
+		"name": "Feven",
+		"address": "888 Llama Circle, The United Cities of Llamas",
+		"phoneNumber": "3333333333",
+		"email": "fevenlovesllamas@llamallama.com",
+		"relationship": "confusing",
+		"isAvoiding": true,
+		"uid": "12345"
+	},
+	"friend4": {
+		"name": "Sally",
+		"address": "5729 Beef Jerky Lane, Jerky Island",
+		"phoneNumber": "4444444444",
+		"email": "jerkysally@jerkyjerky.com",
+		"relationship": "enemies",
+		"isAvoiding": true,
+		"uid": "12345"
+	},
+	"friend5": {
+		"name": "Scarlett",
+		"address": "4983 Ghost Trace, Purgatory",
+		"phoneNumber": "5555555555",
+		"email": "iamaghost@death.com",
+		"relationship": "She dead",
+		"isAvoiding": false,
+		"uid": "67890"
+	}
+}
