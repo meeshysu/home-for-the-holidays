@@ -1,0 +1,26 @@
+{
+    "holiday1": {
+      "name": "Thanksgiving",
+      "date": "11/22/2018",
+      "imageUrl": "https://i.chzbgr.com/full/4038661/hFDF0C17B/",
+      "location": "A park somewhere",
+      "startTime": "12pm",
+      "uid": "12345"
+    },
+    "holiday2": {
+      "name": "Christmas",
+      "date": "12/25/2018",
+      "imageUrl": "https://kittybloger.files.wordpress.com/2013/12/funny-christmas-cats-photos-13.jpg?w=584",
+      "location": "Kamurocho, Japan",
+      "startTime": "6pm",
+      "uid": "12345"
+    },
+    "holiday3": {
+      "name": "Szilveszter",
+      "date": "12/31/2018",
+      "imageUrl": "https://i.chzbgr.com/full/1555309824/h5CDD0091/",
+      "location": "Budapest, Hungary",
+      "startTime": "10pm",
+      "uid": "67890"
+    }
+  }
