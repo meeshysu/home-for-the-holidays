@@ -14,8 +14,8 @@
 		"phoneNumber": "2222222222",
 		"email": "ripalpastalady@pastapasta.com",
 		"relationship": "friends",
-		"isAvoiding": false,
-		"uid": "67890"
+		"isAvoiding": true,
+		"uid": "bwhHkFJMRNXYPsKRiVeBxETCfo82"
 	},
 	"friend3": {
 		"name": "Feven",
