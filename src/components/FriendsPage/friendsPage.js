@@ -11,6 +11,7 @@ const printSingleFriend = (friend) => {
     <p>${friend.email}</p>
     <p>${friend.phoneNumber}</p>
     <button class="btn btn-danger delete-btn" data-delete-id=${friend.id}>X</button>
+    <button class="btn btn-danger edit-btn" data-edit-id=${friend.id}>Edit</button>
   </div>
   `;
   $('#single-container').html(friendString);
@@ -60,7 +61,7 @@ const friendsPage = () => {
 
 const deleteFriend = (e) => {
   // firebase id
-  const idToDelete = e.target.dataset.deleteId;
+  const idToDelete = e.target.dataset.deleteId; // delete-id
   friendsData.deleteFriends(idToDelete)
     .then(() => {
       friendsPage();
