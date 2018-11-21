@@ -5,6 +5,7 @@ import $ from 'jquery';
 const checkLoginStatus = (initializeFriendsPage) => {
   firebase.auth().onAuthStateChanged((user) => {
     if (user) {
+      $('#add-edit-friend').html('').hide();
       $('#friends').hide();
       $('#holidays').show();
       $('#auth').hide();
@@ -15,6 +16,7 @@ const checkLoginStatus = (initializeFriendsPage) => {
       initializeFriendsPage();
       // console.log('the user came back', user);
     } else {
+      $('#add-edit-friend').html('').hide();
       $('#friends').hide();
       $('#holidays').hide();
       $('#auth').show();
