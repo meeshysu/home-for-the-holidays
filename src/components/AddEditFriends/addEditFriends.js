@@ -45,7 +45,7 @@ const gettingFriendFromForm = () => {
 const buildAddForm = () => {
   let domString = '<h2>Add New Friend</h2>';
   domString += formBuilder();
-  domString += '<button id="add-friend" class="btn btn-success">Add Friend</button>';
+  domString += '<button id="add-friend" class="btn btn-success">Save Friend</button>';
   $('#add-edit-friend').html(domString).show();
   $('#friends').hide();
 };

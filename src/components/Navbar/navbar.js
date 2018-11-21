@@ -16,15 +16,18 @@ const navBarEvents = () => {
         console.error('you are still logged in', error);
       });
     } else if (e.target.id === 'navbar-button-holidays') {
+      $('#add-edit-friend').html('').hide();
       $('#auth').hide();
       $('#friends').hide();
       $('#holidays').show();
     } else if (e.target.id === 'navbar-button-friends') {
+      $('#add-edit-friend').html('').hide();
       $('#auth').hide();
       $('#friends').show();
       $('#holidays').hide();
     } else {
       console.log(e.target.id);
+      $('#add-edit-friend').html('').hide();
       $('#auth').show();
       $('#friends').hide();
       $('#holidays').hide();
