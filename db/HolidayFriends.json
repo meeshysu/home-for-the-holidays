@@ -14,5 +14,9 @@
   "hf4": {
     "holidayId": "holiday3",
     "friendId": "friend5"
+  },
+  "hf5": {
+    "holidayId": "holiday3",
+    "friendId": "friend4"
   }
 }
